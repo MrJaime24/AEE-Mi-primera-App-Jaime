@@ -51,21 +51,5 @@ La aplicación consta de un flujo de navegación estructurado en 5 pantallas:
 5.  **Ejecutar:**
     Conecta tu dispositivo o inicia un emulador y presiona `Run`.
 
-## 🧩 Estructura del Código (Snippet destacado)
-
-Ejemplo de cómo se utiliza `inflate` con View Binding en lugar del método tradicional, tal como se solicitó en los requisitos:
-
-```kotlin
-// En lugar de setContentView(R.layout.activity_login)
-private lateinit var binding: ActivityLoginBinding
-
-override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    binding = ActivityLoginBinding.inflate(layoutInflater)
-    setContentView(binding.root)
-    
-    // Acceso directo a vistas sin findViewById
-    binding.btnLogin.setOnClickListener { ... }
-}
-👤 Autor
+## 👤 Autor
 Desarrollado por Jaime Martín Garcia como parte de una práctica de desarrollo de aplicaciones móviles Android.
