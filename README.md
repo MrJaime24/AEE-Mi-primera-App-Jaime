@@ -35,7 +35,7 @@ La aplicación consta de un flujo de navegación estructurado en 5 pantallas:
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/TU_USUARIO/NOMBRE_DEL_REPO.git](https://github.com/TU_USUARIO/NOMBRE_DEL_REPO.git)
+    git clone [https://github.com/MrJaime24/AEE-Mi-primera-App-Jaime.git]
     ```
 2.  **Abrir en Android Studio:**
     Selecciona `File > Open` y busca la carpeta del proyecto.
@@ -50,14 +50,6 @@ La aplicación consta de un flujo de navegación estructurado en 5 pantallas:
     ```
 5.  **Ejecutar:**
     Conecta tu dispositivo o inicia un emulador y presiona `Run`.
-
-## 📸 Capturas de Pantalla
-
-| Login | Inicio | Contacto |
-|:---:|:---:|:---:|
-| ![Login](ruta_a_tu_imagen_login.png) | ![Inicio](ruta_a_tu_imagen_inicio.png) | ![Contacto](ruta_a_tu_imagen_contacto.png) |
-
-*(Nota: Estas imágenes son demostrativas, reemplázalas con capturas reales de tu app)*
 
 ## 🧩 Estructura del Código (Snippet destacado)
 
@@ -76,4 +68,4 @@ override fun onCreate(savedInstanceState: Bundle?) {
     binding.btnLogin.setOnClickListener { ... }
 }
 👤 Autor
-Desarrollado por [Tu Nombre] como parte de una práctica de desarrollo de aplicaciones móviles Android.
+Desarrollado por Jaime Martín Garcia como parte de una práctica de desarrollo de aplicaciones móviles Android.
